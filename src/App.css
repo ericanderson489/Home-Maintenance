@@ -1,0 +1,45 @@
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background-color: #252936;
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.sidebar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar button:hover {
+  background-color: #41485c;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+  padding: 30px;
+  background-color: var(--bg);
+  color: var(--text);
+}
