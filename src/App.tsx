@@ -4,7 +4,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("Home");
   return (
     <div className = "app">
-      <aside className = "sideBar">
+      <aside className = "sidebar">
         <h2>Home Maintenance</h2>
         <button onClick = {() => setCurrentPage("Home")}>Home
         </button>
